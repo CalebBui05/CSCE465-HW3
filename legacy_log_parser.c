@@ -48,11 +48,11 @@ static void vulnerable_copy(
     /*
      * Safe version:
      * Reject input that does not fit.
-     */
+    
     if (n >= BUF_SIZE) {
         fprintf(stderr, "[-] Input exceeds buffer capacity.\n");
         return;
-    }
+    } */
 
     memcpy(buf, input, n);
 
